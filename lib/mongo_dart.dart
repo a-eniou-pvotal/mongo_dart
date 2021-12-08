@@ -7,16 +7,8 @@ library mongo_dart;
 import 'dart:async';
 import 'dart:collection';
 import 'dart:convert' show base64;
-import 'dart:io'
-    show
-        File,
-        FileMode,
-        IOSink,
-        SecureSocket,
-        SecurityContext,
-        Socket,
-        TlsException;
 import 'dart:math';
+import 'package:universal_io/io.dart';
 import 'dart:typed_data';
 import 'package:bson/bson.dart';
 import 'package:logging/logging.dart';
